@@ -1,0 +1,31 @@
+{
+  "name": "@weepulse/pdf-image",
+  "version": "1.0.2",
+  "description": "Convert one page pdf into jpg or png",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tdournet/pdf-image.git"
+  },
+  "keywords": [
+    "pdf",
+    "image",
+    "convert"
+  ],
+  "author": "tweepulse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tdournet/pdf-image/issues"
+  },
+  "homepage": "https://github.com/tdournet/pdf-image#readme",
+  "dependencies": {
+    "@types/gm": "^1.18.12",
+    "@types/node": "^18.7.18",
+    "gm": "^1.24.0",
+    "path": "^0.12.7"
+  }
+}
